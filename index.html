@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kuz</title>
     <link rel="stylesheet" href="styles.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('body').click(function() {
-                $('body').fadeOut(500, function() {
-                    window.location.href = 'main.html';
-                });
-            });
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <div id="message">click to continue</div>
-    <script>
-        document.body.addEventListener('click', function() {
-            window.location.href = 'main.html';
-        });
-    </script>
+    <div id="black-screen">click to continue</div>
+    <div id="main-content">
+        <div class="container">
+            <div class="profile-picture">
+                <img src="pfp.jpg" alt="Profile Picture">
+            </div>
+            <div class="name">
+                <h1>Kuz</h1>
+            </div>
+            <div class="description">
+                <p>18y dev</p>
+            </div>
+        </div>
+    </div>
+    <audio id="background-music" src="bg.mp3" loop></audio>
+    <script src="script.js"></script>
 </body>
 </html>
