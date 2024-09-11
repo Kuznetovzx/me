@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuz</title>
+    <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('body').click(function() {
+                $('body').fadeOut(500, function() {
+                    window.location.href = 'main.html';
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="message">click to continue</div>
+    <script>
+        document.body.addEventListener('click', function() {
+            window.location.href = 'main.html';
+        });
+    </script>
+</body>
+</html>

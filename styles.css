@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#message {
+    font-size: 24px;
+    text-transform: lowercase;
+    cursor: default;
+    text-shadow: 
+        0 0 5px #d3a7e1, 
+        0 0 10px #d3a7e1, 
+        0 0 15px #b56bbf, 
+        0 0 20px #b56bbf, 
+        0 0 30px #9b4d9c, 
+        0 0 40px #9b4d9c, 
+        0 0 50px #9b4d9c;
+}
