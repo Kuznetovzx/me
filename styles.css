@@ -12,8 +12,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
-    color: white;
+    background: rgba(0, 0, 0, 0.5) url('bg.gif') no-repeat center center fixed;    color: white;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,7 @@ body {
     0 0 40px #9b4d9c, 
     0 0 50px #9b4d9c;
     z-index: 10;
+    opacity: 0.5;
     transition: opacity 0.1s ease-out;
 }
 
@@ -76,10 +77,35 @@ body {
     font-size: 3rem;
     color: #fff;
     margin: 0;
+    text-shadow:
+    0 0 40px #ffff, 
+    0 0 50px #ffff;
 }
 
 .description p {
     font-size: 1.5rem;
     color: #fff;
     margin: 5px 0 0 0;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.social-button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    filter: brightness(0) invert(1);
+    text-shadow:
+    0 0 40px #ffff, 
+    0 0 50px #ffff;
+}
+
+.social-button img {
+    width: 40px; 
+    height: 40px; 
+    display: block;
 }
